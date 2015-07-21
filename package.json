@@ -1,0 +1,29 @@
+{
+  "name": "calc-me",
+  "version": "0.0.1",
+  "description": "Calculate a set of operations over a var",
+  "main": "node/index.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha tests/* --compilers js:babel/register -t 15s",
+    "build" : "make clean && make node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Urucas/calc-me.git"
+  },
+  "keywords": [
+    "calc",
+    "calculations",
+    "operations"
+  ],
+  "author": "Urucas <hello@urucas.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Urucas/calc-me/issues"
+  },
+  "homepage": "https://github.com/Urucas/calc-me",
+  "devDependencies": {
+    "babel": "^5.8.3",
+    "mocha": "^2.2.5"
+  }
+}
