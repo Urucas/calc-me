@@ -26,9 +26,9 @@ let x = calc(3, ["+","-3","+","*4","/2"]);
 ```
 
 Operations
-* +[num]
-* -[num]
+* + [num]
+* - [num]
 * ++
 * --
-* *[num]
-* /[num]
+* * [num]
+* / [num]
