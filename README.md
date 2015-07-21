@@ -1,4 +1,4 @@
-# calc-me
+# calc-me [![Build Status](https://travis-ci.org/Urucas/calc-me.svg)](https://travis-ci.org/Urucas/calc-me)
 Calculate a set of operations over a var
 
 #Usage
